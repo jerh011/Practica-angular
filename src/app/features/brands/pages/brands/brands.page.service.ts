@@ -4,7 +4,7 @@ import { ApiResponse, OffsetPaginationParams } from '@shared/interfaces';
 import { Brand } from '@shared/models';
 import { Observable } from 'rxjs';
 import { BrandsOffsetResponse } from './types';
-import { environment } from '@environments/environment';
+import { environment } from '@environments/environtment.development';
 
 @Injectable({
     providedIn: 'root',

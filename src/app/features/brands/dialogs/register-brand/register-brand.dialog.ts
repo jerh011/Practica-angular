@@ -1,9 +1,9 @@
 import { Component, inject, signal } from '@angular/core';
-import { IDialogComponent } from '@shared/components/ui/dialog/interfaces/dialog-component.interface';
-import { DialogRef } from '@shared/components/ui/dialog/models/dialog-ref.model';
+import { IDialogComponent } from '@shared/component/ui/dialog/interfaces/dialog-component.interface';
+import { DialogRef } from '@shared/component/ui/dialog/models/dialog-ref.model';
 import { Brand } from '@shared/models';
 import { BrandForm } from '@brands/components/forms/brand-form/brand-form';
-import { FormActions } from '@shared/components/form-actions/form-actions';
+import { FormActions } from '@shared/component/form-actions/form-actions';
 import { FormActionsOptions, FormEvent } from '@shared/interfaces';
 import { BrandService } from '@brands/services/brand/brand.service';
 import { BrandFormData } from '@brands/components/forms/brand-form/types';

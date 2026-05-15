@@ -6,6 +6,7 @@ import { Location } from '@angular/common';
 
 @Component({
   selector: 'header[ecom-page-header]',
+  standalone: true,
   imports: [Button, FaIconComponent],
   templateUrl: './page-header.html',
   styleUrl: './page-header.css',

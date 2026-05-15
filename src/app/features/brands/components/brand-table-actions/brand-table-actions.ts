@@ -1,7 +1,7 @@
 import { Component, input, output } from '@angular/core';
 import { faEye, faPenNib, faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import { BrandTableActionsOptions } from './types';
-import { Button } from '@shared/components';
+import { Button } from '@shared/component/ui/button/button';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 
 @Component({

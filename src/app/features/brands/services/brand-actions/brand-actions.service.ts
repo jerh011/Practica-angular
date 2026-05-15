@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { BrandDeleted, BrandUpdated, ToggleBrandActiveStatus, ToggleBrandVisibilityInMenu, UpdateBrand } from './types';
 import { Observable } from 'rxjs';
-import { environment } from '@environments/environment';
+import { environment } from '@environments/environtment.development';
 import { Brand } from '@shared/models';
 
 @Injectable({

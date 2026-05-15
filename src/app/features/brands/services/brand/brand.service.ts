@@ -2,7 +2,7 @@ import { inject, Injectable } from '@angular/core';
 import { BulkSaveBrandItem, SaveBrandRequest, SaveBrandResponse } from './types';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '@environments/environment';
+import { environment } from '@environments/environtment.development';
 import { ApiResponse } from '@shared/interfaces';
 import { Brand } from '@shared/models';
 

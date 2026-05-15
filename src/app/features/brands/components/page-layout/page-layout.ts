@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { Spinner } from "../ui";
+import { Spinner } from '@shared/component/ui/spinner/spinner';
 
 @Component({
     selector: 'ecom-page-layout',

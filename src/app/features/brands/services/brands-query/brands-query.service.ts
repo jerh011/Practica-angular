@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { environment } from '@environments/environment';
+import { environment } from '@environments/environtment.development';
 import { CursorPaginationParams, OffsetPaginationParams } from '@shared/interfaces';
 import { cleanParams } from '@shared/utils/params.utils';
 import { Observable } from 'rxjs';

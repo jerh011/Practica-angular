@@ -1,6 +1,6 @@
 import { FormActionsOptions } from '@shared/interfaces/form.interface';
 import { Component, effect, input, output } from '@angular/core';
-import { Button } from '../ui';
+import { Button } from '../button/button';
 
 @Component({
     selector: 'ecom-form-actions',

@@ -1,9 +1,9 @@
 import { Component, computed, inject, signal } from '@angular/core';
+// import { PageLayout, PageHeader, Card, Button } from '@shared/components';
 import { PageLayout } from '@shared/component/page-layout/page-layout';
 import { PageHeader } from '@shared/component/page-header/page-header';
 import { Card } from '@shared/component/ui/card/card';
 import { Button } from '@shared/component/ui/button/button';
-
 import { BrandForm } from '@brands/components/forms/brand-form/brand-form';
 import { BrandsTable } from '@brands/components/brands-table/brands-table';
 import { createPagination, FormActionsOptions, FormEvent } from '@shared/interfaces';
@@ -16,7 +16,9 @@ import { BulkSaveBrandItem } from '@brands/services/brand/types';
 
 @Component({
     selector: 'ecom-bulk-brand-registration.page',
-    imports: [PageLayout, PageHeader, Card, BrandForm, BrandsTable, Button],
+    imports: [PageLayout, PageHeader, Card,
+        //  BrandForm, BrandsTable,
+          Button],
     templateUrl: './bulk-brand-registration.page.html',
     styleUrl: './bulk-brand-registration.page.css',
     providers: [BrandService],

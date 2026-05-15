@@ -1,5 +1,6 @@
 import { Component, computed, inject, OnInit, signal } from '@angular/core';
-import { PageHeader, PageLayout } from '@shared/components';
+import { PageHeader } from '@shared/component/page-header/page-header';
+import { PageLayout } from '@shared/component/page-layout/page-layout';
 import { BrandOverviewActions } from '@brands/components/brand-overview-actions/brand-overview-actions';
 import { BrandsTable } from '@brands/components/brands-table/brands-table';
 import { BrandsPageService } from './brands.page.service';

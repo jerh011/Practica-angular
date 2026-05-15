@@ -1,9 +1,14 @@
 import { Component, effect, inject, signal } from '@angular/core';
 import { BrandService } from '@brands/services/brand/brand.service';
-import { Image, InputText, InputTextarea, Label, Spinner, Switch } from '@shared/components';
-import { FormDivider } from '@shared/components/ui/form-divider/form-divider';
-import { IDialogComponent } from '@shared/components/ui/dialog/interfaces/dialog-component.interface';
-import { DialogRef } from '@shared/components/ui/dialog/models/dialog-ref.model';
+import { Image } from '@shared/component/ui/image/image';
+import { InputTextarea } from '@shared/component/ui/input-textarea/input-textarea';
+import { InputText } from '@shared/component/ui/input-text/input-text';
+import { Label } from '@shared/component/ui/label/label';
+import { Spinner } from '@shared/component/ui/spinner/spinner';
+import { Switch } from '@shared/component/ui/switch/switch';
+import { FormDivider } from '@shared/component/ui/form-divider/form-divider';
+import { IDialogComponent } from '@shared/component/ui/dialog/interfaces/dialog-component.interface';
+import { DialogRef } from '@shared/component/ui/dialog/models/dialog-ref.model';
 import { Brand } from '@shared/models';
 
 @Component({

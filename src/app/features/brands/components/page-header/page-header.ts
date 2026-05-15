@@ -1,5 +1,5 @@
 import { Component, inject, input } from '@angular/core';
-import { Button } from '../ui';
+import { Button } from '@shared/component/ui/button/button';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Location } from '@angular/common';

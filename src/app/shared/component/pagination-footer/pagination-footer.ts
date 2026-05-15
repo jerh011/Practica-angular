@@ -1,5 +1,5 @@
 import { Component, computed, input, output } from '@angular/core';
-import { Button } from '../ui';
+import { Button } from '../ui/button/button';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 

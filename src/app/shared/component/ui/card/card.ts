@@ -3,6 +3,7 @@ import { Slot } from '@shared/directives/slot/slot';
 
 @Component({
   selector: 'ecom-card',
+  standalone: true,
   imports: [],
   templateUrl: './card.html',
   styleUrl: './card.css',
@@ -11,7 +12,6 @@ import { Slot } from '@shared/directives/slot/slot';
   },
 })
 export class Card {
-
   slots = viewChildren<Slot>(Slot);
 
   hasSlot(name: string): boolean {
