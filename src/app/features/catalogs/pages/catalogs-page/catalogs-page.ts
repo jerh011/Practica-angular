@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { PageLayout } from '@shared/component/page-layout/page-layout';
 import { PageHeader } from "@shared/component/page-header/page-header";
 import { CatalogLinkCard } from "@catalogs/components/catalog-link-card/catalog-link-card";
-import { faBoxes, faBoxOpen, faCertificate, faLayerGroup, faListCheck, faTableCellsLarge, faTags } from '@fortawesome/free-solid-svg-icons';
+import { faBoxes, faCertificate, faLayerGroup, faListCheck, faTableCellsLarge, faTags } from '@fortawesome/free-solid-svg-icons';
 import { CatalogLinkCardType } from '@catalogs/components/catalog-link-card/catalog-link-card.types';
 
 @Component({
