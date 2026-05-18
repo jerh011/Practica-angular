@@ -17,7 +17,9 @@
     "paths": {
       "@core/*": ["./src/app/core/*"],
       "@catalogs/*": ["./src/app/features/catalogs/*"],
-      "@shared/*":["./src/app/shared/*"]
+      "@shared/*":["./src/app/shared/*"],
+      "@categories/*": ["./src/app/features/categories/*"],
+      "@environments/*": ["./src/environments/*"],
     }
   },
   "angularCompilerOptions": {
